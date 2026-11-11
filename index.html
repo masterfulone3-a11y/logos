@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div id="list"></div>
+<script>
+  fetch('https://github.com/repos/masterfulone3-a11y/z/contents/')
+    .then(r => r.json())
+    .then(files => {
+      document.getElementById('list').innerHTML = files
+        .filter(f => f.name !== 'index.html')
+        .map(f => `<a href="${f.name}">${f.name}</a><br>`)
+        .join('');
+    });
+</script>
+</body>
+</html>
