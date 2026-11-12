@@ -1350,7 +1350,7 @@
               <left>23.5</left>
               <width>300</width>
               <height>105</height>
-              <texture colordiffuse="dialog_bg2" fallback="DefaultFolder.png">$PARAM[icon]</texture>
+              <texture colordiffuse="FFFFFFFF" fallback="DefaultFolder.png">$PARAM[icon]</texture>
               <aspectratio>keep</aspectratio>
               <visible>!Skin.HasSetting(NoIconSilhouettes)</visible>
             </control>
@@ -1393,7 +1393,7 @@
               <left>23.5</left>
               <width>300</width>
               <height>105</height>
-              <texture colordiffuse="dialog_bg2" fallback="DefaultFolder.png">$PARAM[icon]</texture>
+              <texture colordiffuse="FFFFFFFF" fallback="DefaultFolder.png">$PARAM[icon]</texture>
               <aspectratio>keep</aspectratio>
               <visible>!Skin.HasSetting(NoIconSilhouettes)</visible>
             </control>
