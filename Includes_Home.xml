@@ -1379,7 +1379,6 @@
               <height>120</height>
               <texture colordiffuse="button_focus">masks/categorywidget.png</texture>
               <bordersize>17</bordersize>
-              <include>Animation_FocusTextureFade</include>
               <visible>Control.HasFocus($PARAM[list_id])</visible>
             </control>
             <control type="image">
